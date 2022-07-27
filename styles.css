@@ -1,0 +1,51 @@
+.wrap-all{
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  padding-top: 3rem;
+}
+.wrap-all h1 {
+  text-align: center;
+}
+
+.content{
+  padding-top: 3rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.botoes {
+  padding: 20px 0;
+}
+
+.botoes button{
+  width: 25rem;
+  color: rgb(190, 14, 14);
+  box-shadow: 0px 0px 22px 5px rgba(64,153,255,0.72);
+
+}
+
+
+
+.botoes button img{
+  width: 1.2rem;
+  padding-bottom: 4px;
+}
+.termos{
+  padding-bottom: 2rem;
+}
+
+.termos a{
+  text-decoration: none;
+}
+
+.termos a:hover{
+  font-size: 1.2rem;
+}
+
+@media(max-width: 400px){
+  .botoes button{
+    width: 18rem;
+  }
+}
